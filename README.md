@@ -7,6 +7,7 @@ SocketIo Private Chats Groups Channels demonstration
 ## Features
 ---
 Login/Sign Up page: When user first time visits the website i.e when he/she is is not logedin the user is automatically redirected to Login/SignUp page.
+![2021-05-13 (26)](https://user-images.githubusercontent.com/61535855/118038481-c6fa0700-b38c-11eb-8099-a3e19df76401.png)
 ---
 Channel/Group Creation: Every User create a new channel/Group, so long as its name doesn’t conflict with the name of an existing channel/group. By default there is a general purpose channel users can join random groups/channels and meet with new people.
 ---
