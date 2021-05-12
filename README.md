@@ -15,6 +15,9 @@ Group List: All the users are able to view the Groups/channels in the app and ca
 Users list: Every user is able to see every other user on the site and can chat privately with random people
 ---
 Sending Messages: User can send messages without reloading the page unlimited is displayed the can scroll through chat-box users can view their sent or others recieved messages even after closing window but for groups/channels is limitted to only 100 recent earlier messages rest are deleted from the server side memory but however all the user private chats are stored and can be opened and viewed anytime.
+
+![2021-05-13 (24)](https://user-images.githubusercontent.com/61535855/118038058-41765700-b38c-11eb-8d6b-2d8a1e5af60a.png)
+
 ---
 Search for groups/channels and users: Every user can search for every other user on the site.Users are also able to search through all the lists of groups and channels on the website.
 ---
