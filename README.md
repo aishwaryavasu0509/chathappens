@@ -24,7 +24,7 @@ Users list: Every user is able to see every other user on the site and can chat 
 ---
 Sending Messages: User can send messages without reloading the page unlimited is displayed the can scroll through chat-box users can view their sent or others recieved messages even after closing window but for groups/channels is limitted to only 100 recent earlier messages rest are deleted from the server side memory but however all the user private chats are stored and can be opened and viewed anytime.the messages are end to end encrypted using shared key
 ---
-
+![Screenshot (22)](https://user-images.githubusercontent.com/61535855/118099249-9cdb3000-b3f2-11eb-8f9f-e146af105f55.png)
 
 ---
 Search for groups/channels and users: Every user can search for every other user on the site.Users are also able to search through all the lists of groups and channels on the website.
