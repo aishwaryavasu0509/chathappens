@@ -11,6 +11,8 @@ Login/Sign Up page: When user first time visits the website i.e when he/she is i
 ![Screenshot (24)](https://user-images.githubusercontent.com/61535855/118099992-939e9300-b3f3-11eb-9d1f-f660457b0e18.png)
 
 ---
+![Screenshot (26)](https://user-images.githubusercontent.com/61535855/118100173-c5aff500-b3f3-11eb-8efd-6b42532d2003.png)
+
 ---
 Channel/Group Creation: Every User create a new channel/Group, so long as its name doesn’t conflict with the name of an existing channel/group. By default there is a general purpose channel users can join random groups/channels and meet with new people.
 ---
