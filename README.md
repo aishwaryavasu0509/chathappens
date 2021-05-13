@@ -29,6 +29,7 @@ Sending Messages: User can send messages without reloading the page unlimited is
 ---
 Search for groups/channels and users: Every user can search for every other user on the site.Users are also able to search through all the lists of groups and channels on the website.
 ---
+![Screenshot (23)](https://user-images.githubusercontent.com/61535855/118099360-bda38580-b3f2-11eb-98fb-f1d932da3eb3.png)
 
 ---
 Logout:The Site has a Logout feature when a  user clicks on logout all localstorage is first cleared then user is logged out and then redirected to Login/Signup page.
