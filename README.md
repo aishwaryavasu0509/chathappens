@@ -15,6 +15,8 @@ Channel/Group Creation: Every User create a new channel/Group, so long as its na
 ---
 Group List: All the users are able to view the Groups/channels in the app and can switch channels/group. When a new channel/group is created it is added to channel/group list every user is able to see new channel/group without reloading the page.
 ---
+![Screenshot (21)](https://user-images.githubusercontent.com/61535855/118099150-7917ea00-b3f2-11eb-81b8-e7e46d947d4a.png)
+---
 Users list: Every user is able to see every other user on the site and can chat privately with random people
 ---
 ![Screenshot (20)](https://user-images.githubusercontent.com/61535855/118099021-4e2d9600-b3f2-11eb-8ec4-ab1014fa982d.png)
