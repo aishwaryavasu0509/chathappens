@@ -1,9 +1,12 @@
-# copyrights @ Mohammed Zahid Imtiyaz Wadiwale this is an Intellectual property of Mohammed Zahid Imtiyaz Wadiwale you cannot modify it
-# This Web App is created by Mohammed Zahid Imtiyaz Wadiwale
+
 import os
 
 from flask import Flask, jsonify, render_template, request, redirect, url_for, abort, flash
 from flask_socketio import emit, SocketIO, send, join_room, leave_room
+from flask import Flask, jsonify, request
+from flask_cors import CORS
+
+from dh import DiffieHellman
 import json
 import requests
 
@@ -16,6 +19,13 @@ users = {"admin":[]}
 userslist = ["admin"]
 usid={}
 private_messages = []
+
+
+
+cors = CORS(app)
+
+
+
 
 @app.route("/")
 def index():
@@ -63,6 +73,26 @@ def search():
         return render_template("search.html", result=r, keyword=keyword)
     return render_template("search.html")
 @socketio.on('message')
+
+@app.route("/generate-keys", methods=["GET"])
+def generate_keys():
+    dh = DiffieHellman()
+    private_key, public_key = dh.get_private_key(), dh.gen_public_key()
+    return jsonify({"private_key": private_key, "public_key": public_key,})
+
+
+@app.route("/generate-shared-key", methods=["GET"])
+def generate_shared_key():
+    try:
+        local_private_key = request.args.get("local_private_key")
+        remote_public_key = request.args.get("remote_public_key")
+        shared_key = DiffieHellman.gen_shared_key_static(
+            local_private_key, remote_public_key
+        )
+    except:
+        return jsonify({"message": "Invalid public key"}), 400
+    return jsonify({"shared_key": shared_key})
+
 def handleMessage(msg):
     messages[msg["channel"]].append((msg["message"],msg["user"],msg["timestamp"]))
     print(messages)
