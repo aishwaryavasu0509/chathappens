@@ -1,10 +1,11 @@
-this project is developed using flask so steps for set up follows:
+this project is developed using flask in windows machiene so steps for set up follows:
 ---
 in your terminal type the following commands to setup and run the project after cloning the repository
 ---
-![2021-05-13 (30)](https://user-images.githubusercontent.com/61535855/118080011-ea49a400-b3d6-11eb-86fb-4db677c19189.png)
----
-![2021-05-13 (31)](https://user-images.githubusercontent.com/61535855/118080165-444a6980-b3d7-11eb-9e5e-f521f9934e6e.png)
----
-![2021-05-13 (32)](https://user-images.githubusercontent.com/61535855/118080306-94293080-b3d7-11eb-860e-08e1d30cc678.png)
-
+1. git clone <repository_name>
+2. cd <repository>
+3. python -m venv ./venv/
+4. \venv\Scripts\activate
+5. pip install flask
+6. pip freeze > requirements.txt
+7. flask run
