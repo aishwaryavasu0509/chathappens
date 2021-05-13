@@ -8,6 +8,7 @@ SocketIo Private Chats Groups Channels demonstration
 ---
 Login/Sign Up page: When user first time visits the website i.e when he/she is is not logedin the user is automatically redirected to Login/SignUp page.
 ---
+![Screenshot (24)](https://user-images.githubusercontent.com/61535855/118099992-939e9300-b3f3-11eb-9d1f-f660457b0e18.png)
 
 ---
 ---
